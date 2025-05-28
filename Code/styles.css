@@ -1,0 +1,47 @@
+Body{
+    margin: 0;
+    display: flex;
+}
+h1{
+    margin: 30px;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    color:white;
+    background-color:black;
+}
+.title {
+    position: fixed;
+    color: black;
+    font-size: 20px;
+    width: 50px;
+    top: 25px;
+    left: 350px;
+    font-size:50px;
+    white-space: nowrap
+}
+.picture-me {
+    position: fixed;
+    bottom: -10px;
+    right: 0px;
+    margin: 0px;
+    border-radius: 50px;
+}
+.picture-AboutMe1 {
+    position: fixed;
+    top: 100px;
+    left: 350px;
+    margin: 0px;
+    border-radius: 50px;
+}
+a{
+    margin: 30px;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    color:white;
+    background-color:black;
+    text-decoration-line: underline;
+    font-size: 25px;
+}
+

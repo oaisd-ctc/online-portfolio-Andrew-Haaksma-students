@@ -1,7 +1,10 @@
+/* - Just basic stuff that my whole code needs - */
 Body{
     margin: 0;
     display: flex;
 }
+
+/* - This is for the hyper links - */
 h1{
     margin: 30px;
     top: 0px;
@@ -10,6 +13,70 @@ h1{
     color:white;
     background-color:black;
 }
+/* - The pictures for the about me page - */
+.picture-AboutMe1 {
+    position: fixed;
+    top: 100px;
+    left: 350px;
+    margin: 0px;
+    border-radius: 50px;
+}
+.picture-AboutMe2 {
+    position: fixed;
+    top: 100px;
+    left: 1000px;
+    margin: 0px;
+    border-radius: 50px;
+}
+.picture-AboutMe3 {
+    position: fixed;
+    top: 10px;
+    left: 1650px;
+    margin: 0px;
+    border-radius: 50px;
+}
+
+/* - This is the text for the about me page - */
+.ski-text {
+    max-width: 500px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+    position: fixed;
+    top: 435px;
+    left: 315px;
+}
+.ski-text p {
+  text-indent: 2em;
+}
+
+.paragliding-text {
+    max-width: 502px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+    position: fixed;
+    top: 435px;
+    left: 970px;
+}
+.paragliding-text p {
+  text-indent: 2em;
+}
+
+.renaissance-text {
+    max-width: 1000px;
+    margin: 24px;
+    padding: 20px;
+    line-height: 1.6;
+    position: fixed;
+    top: 500px;
+    left: 1600px;
+}
+.renaissance-text p {
+  text-indent: 2em;
+}
+
+/* - The title to show what page you are on - */
 .title {
     position: fixed;
     color: black;
@@ -20,6 +87,7 @@ h1{
     font-size:50px;
     white-space: nowrap
 }
+/* - The home page picture - */
 .picture-me {
     position: fixed;
     bottom: -10px;
@@ -27,13 +95,22 @@ h1{
     margin: 0px;
     border-radius: 50px;
 }
-.picture-AboutMe1 {
+
+/* - The circle to block a persons face - */
+.circle {
     position: fixed;
-    top: 100px;
-    left: 350px;
-    margin: 0px;
-    border-radius: 50px;
+    width:100px;
+    height: 100px;
+    background-color:gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 125px;
+    left: 1150px;
 }
+/* - To give the links style - */
 a{
     margin: 30px;
     top: 0px;

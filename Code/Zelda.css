@@ -1,0 +1,239 @@
+body{
+    text-align:left;
+    background-color:#f4f4f4;
+    color:white;
+    margin:0;
+    font-family: thewildbreathofzelda;
+}
+@font-face {
+    font-family: thewildbreathofzelda;
+    src: url(../fonts/thewildbreathofzelda.otf);
+}
+H2{
+    margin:0px;
+    font-size:175.25%;
+}
+h5{
+    color:#333;
+    line-height: 1.5;
+    margin:0px;
+    font-size:100.25%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.Header{
+    background-color:#0e5135;
+    padding: 10px;
+    text-align: center;
+    display:flex;
+    justify-content:space-evenly;
+}
+.Header > div {
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 1.2rem;
+    display:flex;
+}
+.triforce{
+    flex:1;
+}
+.LOZ-H{
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    text-align:center;
+    flex:1;
+}
+.LOZ-H > div {
+    color:white;
+    margin: 10px;
+    text-align:center;
+    font-size: 15px;
+}
+.navagation{
+    display: flex;
+    flex-direction:row;
+    flex:1;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    align-items:center;
+}
+.navagation > div{
+    color:white;
+    margin: 1px;
+    text-align:right;
+    font-size: 15px;
+    line-height:145px;
+}
+.TOG{
+    background-color:white;
+    length:5000px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    padding:10px;
+    text-align: center;
+}
+
+.timeline {
+    background-color: #4aba91;
+    padding: 0.5rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 50%;
+}
+.timeline:hover {
+    background-color: #0e5135;
+}
+
+.overview{
+    background-color:white;
+    width:100%;
+}
+.captions{
+    color: #0e5135;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color:white;
+}
+.OVC{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.ending{
+    text-align:center;
+    background-color: #4aba91;
+}
+img{
+    width:200px;
+    height:195px;
+}
+.IMG-B-1{
+    border: 2px solid white;
+    border-radius: 5px;
+    width:150px;
+    height:195px;
+
+}
+.IMG-B-2{
+    border: 2px solid white;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    height:195px;
+
+}
+.IMG-B-3{
+    border: 2px solid white;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    height:195px;
+}
+.IMG-B-4{
+    border: 2px solid white;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    height:195px;
+}
+.games {
+    background-color:#4aba91;
+    padding:10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 8px;
+    width:200px;
+    height:475px;
+}
+.games:hover{
+    background-color:#0e5135;
+}
+.iconic{
+    padding:10px;
+    margin:0px;
+    display: flex;
+    background-color:white;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+.iconic > div {
+    margin: 15px;
+    align-items:center;
+}
+.impact{
+    background-color:white;
+}
+.CI{
+    margin: auto;
+    width: 50%;
+    padding: 15px;
+}
+.color{
+    background-color:white;
+}
+a:hover {
+    background-color:#4aba91;
+    height:20px;
+    color:white;
+  }
+a{
+    text-decoration: none;
+    color:white;
+}
+.ol{
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 1200px) {
+    .Header {
+        flex-direction:column;
+        text-align:center;
+        align-items:center;
+        padding:0px;
+    }
+    .timeline {
+        width:95%;
+    }
+    .captions {
+        width:95%;
+    }
+    .OVC{
+        width:95%;
+    }
+    .CI{
+        width:95%;
+    }
+    .iconic{
+        flex-direction: row;
+    }
+    .navagation{
+        flex-direction: row;
+        width:50%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .timeline {
+        width:95%;
+        height:400px
+    }
+    .navagation{
+        flex-direction: column;
+    }
+}

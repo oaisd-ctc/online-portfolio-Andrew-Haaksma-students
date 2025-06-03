@@ -1,3 +1,4 @@
+/* - All the pages - */
 /* - Just basic stuff that my whole code needs - */
 Body{
     margin: 0;
@@ -13,6 +14,51 @@ h1{
     color:white;
     background-color:black;
 }
+
+/* - The title to show what page you are on - */
+.title {
+    position: fixed;
+    color: black;
+    font-size: 16px;
+    width: 50px;
+    top: 25px;
+    left: 350px;
+    font-size:50px;
+    white-space: nowrap
+}
+
+/* - To give the links style - */
+a{
+    margin: 30px;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    color:white;
+    background-color:black;
+    text-decoration-line: underline;
+    font-size: 25px;
+}
+
+
+/* - The home page - */
+/* - The home page picture - */
+.picture-me {
+    position: fixed;
+    top: 100px;
+    left: 330px;
+    margin: 0px;
+    border-radius: 50px;
+}
+
+/* - My info to contact me, and socail media - */
+.My-info {
+    position: fixed;
+    top: 750px;
+    left: 350px;
+}
+
+
+/* - The About me page - */
 /* - The pictures for the about me page - */
 .picture-AboutMe1 {
     position: fixed;
@@ -24,14 +70,14 @@ h1{
 .picture-AboutMe2 {
     position: fixed;
     top: 100px;
-    left: 1000px;
+    left: 875px;
     margin: 0px;
     border-radius: 50px;
 }
 .picture-AboutMe3 {
     position: fixed;
     top: 10px;
-    left: 1650px;
+    left: 1400px;
     margin: 0px;
     border-radius: 50px;
 }
@@ -57,43 +103,23 @@ h1{
     line-height: 1.6;
     position: fixed;
     top: 435px;
-    left: 970px;
+    left: 835px;
 }
 .paragliding-text p {
   text-indent: 2em;
 }
 
 .renaissance-text {
-    max-width: 1000px;
+    max-width: 500px;
     margin: 24px;
     padding: 20px;
     line-height: 1.6;
     position: fixed;
-    top: 500px;
-    left: 1600px;
+    top: 480px;
+    left: 1350px;
 }
 .renaissance-text p {
   text-indent: 2em;
-}
-
-/* - The title to show what page you are on - */
-.title {
-    position: fixed;
-    color: black;
-    font-size: 20px;
-    width: 50px;
-    top: 25px;
-    left: 350px;
-    font-size:50px;
-    white-space: nowrap
-}
-/* - The home page picture - */
-.picture-me {
-    position: fixed;
-    bottom: -10px;
-    right: 0px;
-    margin: 0px;
-    border-radius: 50px;
 }
 
 /* - The circle to block a persons face - */
@@ -107,18 +133,118 @@ h1{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 125px;
-    left: 1150px;
-}
-/* - To give the links style - */
-a{
-    margin: 30px;
-    top: 0px;
-    left: 0px;
-    padding: 0px;
-    color:white;
-    background-color:black;
-    text-decoration-line: underline;
-    font-size: 25px;
+    top: 135px;
+    left: 1025px;
 }
 
+
+/* - My futyre plans - */
+/* - The future plans description - */
+.My-future-description {
+    position: fixed;
+    top: 50px;
+    left: 300px;
+    max-width: 510px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+}
+.My-future-description p {
+  text-indent: 2em;
+}
+
+/* - The three different header sections - */
+.section-1-header {
+    position: fixed;
+    top: 250px;
+    left: 400px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.section-2-header {
+   position: fixed;
+    top: 250px;
+    left: 1000px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.section-3-header {
+    position: fixed;
+    top: 250px;
+    left: 1600px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+/* - The three different sections of my life - */
+.section-1 {
+    position: fixed;
+    top: 230px;
+    left: 300px;
+    max-width: 450px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.section-1 p {
+  text-indent: 2em;
+}
+
+.section-2 {
+    position: fixed;
+    top: 225px;
+    left: 900px;
+    max-width: 450px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.section-2 p {
+  text-indent: 2em;
+}
+
+.section-3 {
+    position: fixed;
+    top: 225px;
+    left: 1500px;
+    max-width: 450px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.section-3 p {
+  text-indent: 2em;
+}
+
+/* - Side note - */
+.SideNote-title {
+    position: fixed;
+    bottom: 200px;
+    left: 350px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.SideNote {
+    position: fixed;
+    bottom: 120px;
+    left: 350px;
+    font-size: 18px;
+    max-width: 510px;
+}
+
+.Zelda_Accomplishment {
+    position: fixed;
+    top:50px;
+    left: 1400px;
+}
+.The_Factory {
+    position: fixed;
+    top:100px;
+    left: 350px;
+}

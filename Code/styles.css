@@ -241,10 +241,17 @@ a{
 .Zelda_Accomplishment {
     position: fixed;
     top:50px;
-    left: 1400px;
+    left: 1000px;
 }
-.The_Factory {
+.The_Factory_1 {
     position: fixed;
     top:100px;
+    left: 325px;
+}
+.Accomplishment_text {
+    position: fixed;
+    bottom: 400px;
     left: 350px;
+    font-size: 18px;
+    max-width: 510px;
 }
